@@ -1,0 +1,8 @@
+== s3D 4.226978816696084932553273
+   algebraic-deg3                   NULL: no relation with all |coeff| <= 100000 (n=3 members, 25 digits)
+   rational+pi,pi2,log2,log3        NULL: no relation with all |coeff| <= 1000 (n=5 members, 25 digits)
+   rational+sqrt2,sqrt3,zeta3       NULL: no relation with all |coeff| <= 10000 (n=4 members, 25 digits)
+== s2D 3.2985080563907181433382986
+   algebraic-deg3                   NULL: no relation with all |coeff| <= 100000 (n=3 members, 25 digits)
+   rational+pi,pi2,log2,log3        NULL: no relation with all |coeff| <= 1000 (n=5 members, 25 digits)
+   rational+sqrt2,sqrt3,zeta3       NULL: no relation with all |coeff| <= 10000 (n=4 members, 25 digits)

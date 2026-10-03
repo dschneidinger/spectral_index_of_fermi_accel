@@ -1,0 +1,228 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{18}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Spitkovsky}(2008)}]{Spitkovsky2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Spitkovsky}},\ }\bibfield  {title} {\bibinfo {title} {Particle acceleration
+  in relativistic collisionless shocks: {F}ermi process at last?},\ }\href@noop
+  {} {\bibfield  {journal} {\bibinfo  {journal} {Astrophys. J. Lett.}\ }\textbf
+  {\bibinfo {volume} {682}},\ \bibinfo {pages} {L5} (\bibinfo {year}
+  {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sironi}\ \emph {et~al.}(2013)\citenamefont {Sironi},
+  \citenamefont {Spitkovsky},\ and\ \citenamefont
+  {Arons}}]{SironiSpitkovskyArons2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Sironi}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Spitkovsky}},\
+  and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Arons}},\ }\bibfield
+   {title} {\bibinfo {title} {The maximum energy of accelerated particles in
+  relativistic collisionless shocks},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {771}},\
+  \bibinfo {pages} {54} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Sironi}\ \emph {et~al.}(2015)\citenamefont {Sironi},
+  \citenamefont {Keshet},\ and\ \citenamefont
+  {Lemoine}}]{SironiKeshetLemoine2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Sironi}}, \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont {Keshet}},\
+  and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Lemoine}},\
+  }\bibfield  {title} {\bibinfo {title} {Relativistic shocks: particle
+  acceleration and magnetization},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Space Sci. Rev.}\ }\textbf {\bibinfo {volume} {191}},\
+  \bibinfo {pages} {519} (\bibinfo {year} {2015})},\ \Eprint
+  {https://arxiv.org/abs/1506.02034} {1506.02034} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bednarz}\ and\ \citenamefont
+  {Ostrowski}(1998)}]{BednarzOstrowski1998}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Bednarz}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Ostrowski}},\ }\bibfield  {title} {\bibinfo {title} {Energy spectra of
+  cosmic rays accelerated at ultrarelativistic shock waves},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {80}},\ \bibinfo {pages} {3911} (\bibinfo {year}
+  {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Achterberg}\ \emph {et~al.}(2001)\citenamefont
+  {Achterberg}, \citenamefont {Gallant}, \citenamefont {Kirk},\ and\
+  \citenamefont {Guthmann}}]{Achterberg2001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Achterberg}}, \bibinfo {author} {\bibfnamefont {Y.~A.}\ \bibnamefont
+  {Gallant}}, \bibinfo {author} {\bibfnamefont {J.~G.}\ \bibnamefont {Kirk}},\
+  and\ \bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont {Guthmann}},\
+  }\bibfield  {title} {\bibinfo {title} {Particle acceleration by
+  ultrarelativistic shocks: theory and simulations},\ }\href@noop {} {\bibfield
+   {journal} {\bibinfo  {journal} {Mon. Not. R. Astron. Soc.}\ }\textbf
+  {\bibinfo {volume} {328}},\ \bibinfo {pages} {393} (\bibinfo {year}
+  {2001})},\ \Eprint {https://arxiv.org/abs/astro-ph/0107530}
+  {astro-ph/0107530} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kirk}\ \emph {et~al.}(2000)\citenamefont {Kirk},
+  \citenamefont {Guthmann}, \citenamefont {Gallant},\ and\ \citenamefont
+  {Achterberg}}]{KGGA2000}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~G.}\ \bibnamefont
+  {Kirk}}, \bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont {Guthmann}},
+  \bibinfo {author} {\bibfnamefont {Y.~A.}\ \bibnamefont {Gallant}},\ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Achterberg}},\ }\bibfield
+   {title} {\bibinfo {title} {Particle acceleration at ultrarelativistic
+  shocks: an eigenfunction method},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume} {542}},\
+  \bibinfo {pages} {235} (\bibinfo {year} {2000})},\ \Eprint
+  {https://arxiv.org/abs/astro-ph/0005222} {astro-ph/0005222} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kirk}\ and\ \citenamefont
+  {Schneider}(1987)}]{KirkSchneider1987}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~G.}\ \bibnamefont
+  {Kirk}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Schneider}},\ }\bibfield  {title} {\bibinfo {title} {On the acceleration of
+  charged particles at relativistic shock fronts},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Astrophys. J.}\ }\textbf {\bibinfo {volume}
+  {315}},\ \bibinfo {pages} {425} (\bibinfo {year} {1987})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Heavens}\ and\ \citenamefont
+  {Drury}(1988)}]{HeavensDrury1988}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~F.}\ \bibnamefont
+  {Heavens}}\ and\ \bibinfo {author} {\bibfnamefont {L.~O.}\ \bibnamefont
+  {Drury}},\ }\bibfield  {title} {\bibinfo {title} {Relativistic shocks and
+  particle acceleration},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Mon. Not. R. Astron. Soc.}\ }\textbf {\bibinfo {volume} {235}},\
+  \bibinfo {pages} {997} (\bibinfo {year} {1988})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Keshet}(2006)}]{Keshet2006}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
+  {Keshet}},\ }\bibfield  {title} {\bibinfo {title} {Analytical study of
+  diffusive relativistic shock acceleration},\ }\href@noop {} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo
+  {volume} {97}},\ \bibinfo {pages} {221104} (\bibinfo {year} {2006})},\
+  \Eprint {https://arxiv.org/abs/astro-ph/0608182} {astro-ph/0608182}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nagar}\ and\ \citenamefont
+  {Keshet}(2021)}]{NagarKeshet2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Nagar}}\ and\ \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont {Keshet}},\
+  }\bibfield  {title} {\bibinfo {title} {Diffusive acceleration in relativistic
+  shocks: particle feedback},\ }\href@noop {} {\bibfield  {journal} {\bibinfo
+  {journal} {Mon. Not. R. Astron. Soc.}\ }\textbf {\bibinfo {volume} {501}},\
+  \bibinfo {pages} {329} (\bibinfo {year} {2021})},\ \Eprint
+  {https://arxiv.org/abs/1910.10030} {1910.10030} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Keshet}\ and\ \citenamefont
+  {Waxman}(2005)}]{KeshetWaxman2005}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {U.}~\bibnamefont
+  {Keshet}}\ and\ \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Waxman}},\ }\bibfield  {title} {\bibinfo {title} {Energy spectrum of
+  particles accelerated in relativistic collisionless shocks},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf
+  {\bibinfo {volume} {94}},\ \bibinfo {pages} {111102} (\bibinfo {year}
+  {2005})},\ \Eprint {https://arxiv.org/abs/astro-ph/0408489}
+  {astro-ph/0408489} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lavi}\ \emph {et~al.}(2020)\citenamefont {Lavi} \emph
+  {et~al.}}]{Lavi2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Lavi}} \emph {et~al.},\ }\href@noop {} {\bibinfo {title} {Diffusive shock
+  acceleration in an arbitrary dimension}} (\bibinfo {year} {2020}),\ \bibinfo
+  {note} {in preparation; 2D result $s_E\simeq(1+\sqrt{13})/2$ as quoted in
+  \cite{NagarKeshet2021}}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schwartz}(2026)}]{BootLoops}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~D.}\ \bibnamefont
+  {Schwartz}},\ }\href@noop {} {\bibinfo {title} {{BootLoops} 1.0}} (\bibinfo
+  {year} {2026}),\ \bibinfo {note} {\url{https://www.bootloops.ai}}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Johansson}(2017)}]{Johansson2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Johansson}},\ }\bibfield  {title} {\bibinfo {title} {Arb: efficient
+  arbitrary-precision midpoint-radius interval arithmetic},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {IEEE Trans. Comput.}\ }\textbf
+  {\bibinfo {volume} {66}},\ \bibinfo {pages} {1281} (\bibinfo {year}
+  {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ferguson}\ \emph {et~al.}(1999)\citenamefont
+  {Ferguson}, \citenamefont {Bailey},\ and\ \citenamefont
+  {Arno}}]{FergusonBaileyArno1999}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.~R.~P.}\
+  \bibnamefont {Ferguson}}, \bibinfo {author} {\bibfnamefont {D.~H.}\
+  \bibnamefont {Bailey}},\ and\ \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Arno}},\ }\bibfield  {title} {\bibinfo {title} {Analysis
+  of {PSLQ}, an integer relation finding algorithm},\ }\href@noop {} {\bibfield
+   {journal} {\bibinfo  {journal} {Math. Comp.}\ }\textbf {\bibinfo {volume}
+  {68}},\ \bibinfo {pages} {351} (\bibinfo {year} {1999})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kirk}\ and\ \citenamefont
+  {Schneider}(1989)}]{KirkSchneider1989}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~G.}\ \bibnamefont
+  {Kirk}}\ and\ \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Schneider}},\ }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal}
+  {Astron. Astrophys.}\ }\textbf {\bibinfo {volume} {225}},\ \bibinfo {pages}
+  {559} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Beals}(1981)}]{Beals1981}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Beals}},\ }\bibfield  {title} {\bibinfo {title} {Partial-range completeness
+  and existence of solutions to two-way diffusion equations},\ }\href@noop {}
+  {\bibfield  {journal} {\bibinfo  {journal} {J. Math. Phys.}\ }\textbf
+  {\bibinfo {volume} {22}},\ \bibinfo {pages} {954} (\bibinfo {year}
+  {1981})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{The mpmath development team}}(2023)}]{mpmath}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{The mpmath development
+  team}}},\ }\href@noop {} {\bibinfo {title} {mpmath: a {P}ython library for
+  arbitrary-precision floating-point arithmetic (version 1.3.0)}} (\bibinfo
+  {year} {2023}),\ \bibinfo {note} {\url{https://mpmath.org}}\BibitemShut
+  {NoStop}%
+\end{thebibliography}%

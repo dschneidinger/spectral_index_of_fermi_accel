@@ -1,0 +1,4 @@
+h=0.002  parabola vertex beta_d = 0.1249880790  s(beta_d=1/8) = 3.988969565986
+h=0.001  parabola vertex beta_d = 0.1249972199  s(beta_d=1/8) = 3.988969565986
+h=0.0005  parabola vertex beta_d = 0.1249995051  s(beta_d=1/8) = 3.988969565986
+Richardson (h^2) vertex: 0.1250002669  and  0.1250002669   (1/8 = 0.125)

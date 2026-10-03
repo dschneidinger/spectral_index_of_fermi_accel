@@ -1,0 +1,8 @@
+# Output of: python src/anisotropy.py --dim 3 --N 64 --table results/F_shock_3d.json && python src/mc_downstream.py --table results/F_shock_3d.json --n 200000 --dts 4e-3 2e-3
+# (seed 12345; OMP_NUM_THREADS=4). Exact eigenfunction value for comparison: P_ret = 0.3789847
+dim=3 N= 64  s_N=[4.22697881670484424 +/- 3.74e-18]  a1/a0=F'/F=[0.861992465217130 +/- 2.56e-17]  r_d=[0.766215524637449
+dt=4.0e-03  P_ret=0.37718 +- 0.00108
+   exit-angle histogram (normalised flux): [0.1285, 0.1247, 0.1213, 0.1143, 0.1056, 0.0965, 0.086, 0.0733, 0.0612, 0.0444, 0.0291, 0.0151]
+dt=2.0e-03  P_ret=0.37612 +- 0.00108
+   exit-angle histogram (normalised flux): [0.1289, 0.124, 0.1192, 0.1146, 0.1047, 0.0972, 0.088, 0.0733, 0.0617, 0.0458, 0.0291, 0.0135]
+

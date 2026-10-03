@@ -1,0 +1,11 @@
+Gamma= 10  s_8=4.236989540764  Gamma^2 (s_8 - s_8(inf)) = 1.00107
+Gamma= 14  s_8=4.232059773321  Gamma^2 (s_8 - s_8(inf)) = 0.99586
+Gamma= 20  s_8=4.229461648482  Gamma^2 (s_8 - s_8(inf)) = 0.99311
+Gamma= 28  s_8=4.228243589021  Gamma^2 (s_8 - s_8(inf)) = 0.99154
+Gamma= 40  s_8=4.227598129257  Gamma^2 (s_8 - s_8(inf)) = 0.99082
+extrapolated s_8(inf) = 4.2269790498  vs limit solver 4.2269788647  (diff 1.9e-07)
+finite-Gamma correction (N=12): c2 = 0.9902  c4 = 1.086
+nonrelativistic control u=0.10 r=4.0: s=3.99753324  (3r/(r-1) = 4.00000000)
+nonrelativistic control u=0.03 r=4.0: s=3.99977581  (3r/(r-1) = 4.00000000)
+nonrelativistic control u=0.01 r=4.0: s=3.99997503  (3r/(r-1) = 4.00000000)
+nonrelativistic control u=0.03 r=2.5: s=4.99949656  (3r/(r-1) = 5.00000000)

@@ -1,0 +1,14 @@
+61 kernel points; trapezoid integral over grid -4.61e-04, end contributions 5.78e-04
+min K = -0.3198 at mu = -0.400 ; max K = 0.3902 at mu = 0.440
+N=24 vs N=16 at mu=-0.6000:  K_24=-0.266838162  K_16=-0.266839394
+N=24 vs N=16 at mu=-0.3333:  K_24=-0.311410020  K_16=-0.311408502
+N=24 vs N=16 at mu=+0.2000:  K_24=0.1982002300  K_16=0.1982002277
+N=24 vs N=16 at mu=+0.6000:  K_24=0.3251895816  K_16=0.3251895819
+dipole fit, background degree 3: c = 1.85e-08 +- 7.10e-08
+dipole fit, background degree 4: c = -1.52e-08 +- 2.38e-09
+dipole fit, background degree 5: c = -1.66e-09 +- 1.12e-09
+a=10   exact delta s = -2.394877e-05  linear response = -2.383532e-05  ratio 0.99526
+a=3    exact delta s = -2.616425e-04  linear response = -2.618865e-04  ratio 1.00093
+a=2    exact delta s = -5.752334e-04  linear response = -5.801754e-04  ratio 1.00859
+a=1    exact delta s = -2.041155e-03  linear response = -2.137823e-03  ratio 1.04736
+a=0.5  exact delta s = -5.618640e-03  linear response = -6.558287e-03  ratio 1.16724

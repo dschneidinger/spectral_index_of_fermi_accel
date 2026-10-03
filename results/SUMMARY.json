@@ -1,0 +1,65 @@
+{
+ "model": "test particles, isotropic direction-angle diffusion, planar unmagnetized shock, Gamma_u -> infinity",
+ "s_inf_3D_beta_d_1_3": "4.226978816696084932553273",
+ "s_inf_3D_uncertainty": "~1e-26 (extrapolation in N; model int+N^-6 log N; spread over fit orders 7e-28)",
+ "s_inf_2D_beta_d_1_2": "3.2985080563907181433382986",
+ "dsds_beta_d_at_0_3D": {
+  "a1": "2.87946794932587",
+  "a2": "1.7493935015",
+  "a3": "1.17662"
+ },
+ "finite_gamma_3D_fixed_beta_d": {
+  "c2": 0.99,
+  "c4": 1.09,
+  "form": "s(Gamma) = s_inf + c2/Gamma^2 + c4/Gamma^4"
+ },
+ "P_ret_3D": "0.3789847",
+ "P_ret_2D": "0.3339262",
+ "grazing_anisotropy_Fprime_over_F": {
+  "3D": "0.85950 +- 0.00002",
+  "3D_KW_identity_requires": "0.835117",
+  "2D": "0.70965 +- 0.00001",
+  "2D_KW_type_identity_requires": "0.665318"
+ },
+ "independent_checks": {
+  "discrete_ordinates_agreement": "1e-11",
+  "finite_gamma_extrapolation_agreement": "2e-7",
+  "downstream_monte_carlo_P_ret": {
+   "dt4e-3": "0.3772 +- 0.0011",
+   "dt2e-3": "0.3761 +- 0.0011",
+   "note": "2.9 sigma below exact combined; excludes 0.437"
+  }
+ },
+ "extensions": {
+  "arbitrary_dimension": {
+   "beta_d": "1/d",
+   "upstream_modes": "exp(-a y) L_n^{((d-3)/2)}(2 a y), a=2n+(d-1)/2",
+   "s_E_examples": {
+    "2": "2.29850805639071814",
+    "3": "2.22697881669608492",
+    "4": "2.18595312826943077",
+    "10": "2.09591143426758012",
+    "1024": "2.00175910792"
+   },
+   "large_d": "s_E = 2 + 2/d + c_{3/2} d^{-3/2} + ..., c_{3/2} = -7.1 +- 0.1 (constant term 2.00000003, 1/d coeff 2.000 +- 2e-4; numerical)",
+   "data": "results/scan_d_*.json"
+  },
+  "arbitrary_scattering": {
+   "upstream": "irrelevant in Gamma->inf limit (only D_up(-1), which rescales z)",
+   "kernel": "results/kernel_[abc].json; K smooth, min -0.32 at mu~-0.40, max +0.39 at mu~0.44; int K = 0 to 1e-4; grazing dipole |c|<1e-7",
+   "tangled_field_D=(mu^2+a^2)^-1/2": {
+    "0.05": "4.2115053403",
+    "0.1": "4.2126801838",
+    "0.5": "4.22136017681089",
+    "1": "4.22493766179950",
+    "10": "4.22695486792644"
+   },
+   "data": "results/scan_aniso_*.json"
+  },
+  "juettner_synge_strong_shock": {
+   "s_min": "3.988970 at Gamma_u beta_u = 0.5541 (beta_u=0.4847, theta=0.0518, R=4.398, beta_d=0.1250003)",
+   "s_equals_4_crossing": "Gamma_u beta_u = 0.9249 (beta_u=0.6790)",
+   "data": "results/js_curve.json, results/js_min.json"
+  }
+ }
+}
